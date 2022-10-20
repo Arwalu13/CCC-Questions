@@ -26,7 +26,7 @@ for i in range(1, numOfDays + 1):
     currentDay += 1
 
     
-    if currentDay != 0 and i != numOfDays:
+    if currentDay != 0 and i != numOfDays and currentDay != 8:
         print(" ", end = "")
 
 print("")
